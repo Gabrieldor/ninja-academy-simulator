@@ -1,0 +1,4154 @@
+{
+  "aimin_arm_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -4,
+    "description": "An unarmed attack to the arm of the target to disable it.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "aimin_arm_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Arm strike",
+    "notes": "Applies Arm Disabled to the target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "arm_disabled",
+    "technique": "Aiming",
+    "tier": 3,
+    "types": {
+      "aiming": true,
+      "prepare": true
+    }
+  },
+  "aimin_body_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -2,
+    "description": "An unarmed attack to the body of the target to daze them.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "aimin_body_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Body strike",
+    "notes": "Applies Dazed 2 to the target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "dazed 2",
+    "technique": "Aiming",
+    "tier": 1,
+    "types": {
+      "aiming": true,
+      "prepare": true
+    }
+  },
+  "aimin_leg_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -3,
+    "description": "An unarmed attack to the legs of the target to slow them.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "aimin_leg_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Leg strike",
+    "notes": "Applies Slowed 3 to the target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "slowed 3",
+    "technique": "Aiming",
+    "tier": 2,
+    "types": {
+      "aiming": true,
+      "prepare": true
+    }
+  },
+  "aimin_stunning_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -5,
+    "description": "An unarmed attack to a nerve of the target to stun them.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "aimin_stunning_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Stunning strike",
+    "notes": "Applies Stunned to the target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "stunned",
+    "technique": "Aiming",
+    "tier": 4,
+    "types": {
+      "aiming": true,
+      "prepare": true
+    }
+  },
+  "aimin_vital_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -6,
+    "description": "An unarmed strike to a vital spot.",
+    "dmg": {
+      "add": 6,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "aimin_vital_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Vital strike",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Aiming",
+    "tier": 5,
+    "types": {
+      "aiming": true,
+      "prepare": true
+    }
+  },
+  "archer_aimed_shot": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "description": "A carefully aimed shot for better accuracy.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archer_aimed_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Aimed shot",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 1,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "archer_fast_shot": {
+    "aType": "attack",
+    "action": -1,
+    "aim": -2,
+    "description": "A fast, but less accurate and powerful shot.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archer_fast_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Fast shot",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 2,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "archer_long_bow": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 4,
+    "description": "A bow longer than it's bearer.",
+    "dmg": {
+      "add": 0,
+      "d": 10,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "archer_long_bow",
+    "maxRng": 20,
+    "minRng": 2,
+    "name": "Long Bow (Daikyo)",
+    "notes": "Use weapon damage for thrown weapons, d6 for anything else",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 4,
+    "types": {
+      "Piercing": true,
+      "Ranged": true,
+      "Shooting": true,
+      "Weapon": true
+    }
+  },
+  "archer_long_shot": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -2,
+    "description": "A highly arced shot for more range.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archer_long_shot",
+    "maxRng": 10,
+    "minRng": 0,
+    "name": "Long Shot",
+    "notes": "Increase Range by 10 squares",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 4,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "archer_mounted_shot": {
+    "aType": "attack",
+    "action": 0,
+    "aim": 0,
+    "description": "Shooting accurately while riding a mount.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archer_mounted_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Mounted shot",
+    "notes": "No penalty to-hit when Mounted status",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 3,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "archer_running_shot": {
+    "aType": "attack",
+    "action": 1,
+    "aim": 0,
+    "description": "Shooting while running.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archer_running_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Running shot",
+    "notes": "Applies Sprinting status",
+    "skill": "ranged",
+    "status_self": "sprinting",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 4,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "archer_short_bow": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 3,
+    "description": "A bow shorter than it's bearer.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "archer_short_bow",
+    "maxRng": 15,
+    "minRng": 2,
+    "name": "Short bow (Hankyo/Yumi)",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 3,
+    "types": {
+      "Piercing": true,
+      "Ranged": true,
+      "Shooting": true,
+      "Weapon": true
+    }
+  },
+  "archer_vital_shot": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -6,
+    "description": "A shot aimed at a vital point on the target.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archer_vital_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Vital shot",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery",
+    "tier": 5,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "archery__prone_shot": {
+    "aType": "attack",
+    "action": 0,
+    "aim": 2,
+    "description": "Shooting accurately while lying on the ground.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "archery__prone_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Prone shot",
+    "notes": "To-hit bonus when Prone status",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Archery  ",
+    "tier": 3,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "axe_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "axe_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "Axes",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "axe_crippling_strike": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Striking at an enemy's legs to slow them down and make them fall prone.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "axe_crippling_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Crippling strike",
+    "notes": "Apply Prone and Slowed 3 status to the target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "prone, slowed 3",
+    "technique": "Axes",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "axe_power_blow": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -6,
+    "description": "Striking hard with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "axe_power_blow",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Power blow",
+    "notes": "",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Axes",
+    "tier": 1,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "axes_axe": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 0,
+    "description": "Large one-handed axes.",
+    "dmg": {
+      "add": 0,
+      "d": 10,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "axes_axe",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Axe (Ono)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Axes (Onojutsu)",
+    "tier": 4,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "axes_battle_axe": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 0,
+    "description": "Large two-handed axes.",
+    "dmg": {
+      "add": 0,
+      "d": 12,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "axes_battle_axe",
+    "maxRng": 3,
+    "minRng": 1,
+    "name": "Battle Axe (Masakari)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Axes (Onojutsu)",
+    "tier": 5,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "axes_hatchet": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 0,
+    "description": "Small axes.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "axes_hatchet",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Hatchet (Nata)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Axes (Onojutsu)",
+    "tier": 3,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "axes_pick_axe": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Small pick axes like the Japanese firefighter's pick.",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "axes_pick_axe",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Pick Axe (Tobiguchi)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Axes (Onojutsu)",
+    "tier": 1,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "axes_sickle": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Sickles of all kinds.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "axes_sickle",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Sickle (Kama)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Axes (Onojutsu)",
+    "tier": 2,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "blockin_aggressive_parry": {
+    "aType": "vocal",
+    "action": 4,
+    "aim": 0,
+    "description": "A defense against unarmed attack that strikes the attacker back.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "blockin_aggressive_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Aggressive parry",
+    "notes": "Defends against unarmed strikes and automatically damages attacker if the attack misses",
+    "skill": "unarmed",
+    "status_self": "defense 4 (unarmed melee)",
+    "status_target": "",
+    "technique": "Blocking",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "full_block": true,
+      "melee": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "blockin_kick_block": {
+    "aType": "vocal",
+    "action": 2,
+    "aim": 0,
+    "description": "A defense against unarmed attack by lower limbs (e.g. kicks)",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "blockin_kick_block",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Kick block",
+    "notes": "Defends against unarmed lower limb strikes (kicking, tails etc.)",
+    "skill": "unarmed",
+    "status_self": "defense 4 (unarmed melee kick)",
+    "status_target": "",
+    "technique": "Blocking",
+    "tier": 2,
+    "types": {
+      "low_block": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "blockin_punch_block": {
+    "aType": "vocal",
+    "action": 1,
+    "aim": 0,
+    "description": "A defense against unarmed attack by upper limbs (e.g. fist punches)",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "blockin_punch_block",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Punch block",
+    "notes": "Defends against unarmed strikes (punching, claws etc.)",
+    "skill": "unarmed",
+    "status_self": "defense 4 (unarmed melee strike)",
+    "status_target": "",
+    "technique": "Blocking",
+    "tier": 1,
+    "types": {
+      "high_block": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "blockin_unarmed_disarm": {
+    "aType": "vocal",
+    "action": 4,
+    "aim": 0,
+    "description": "An unarmed attack to disarm the target.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "blockin_unarmed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Unarmed disarm",
+    "notes": "Disarms opponent",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "Blocking",
+    "tier": 5,
+    "types": {
+      "disarm": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "blockin_unarmed_riposte": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "A defense against unarmed attack that allows for a counter attack (riposte).",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "blockin_unarmed_riposte",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Unarmed riposte",
+    "notes": "Defends against unarmed strikes and allows for a counter-attack if the attack misses",
+    "skill": "unarmed",
+    "status_self": "defense 4 (unarmed melee)",
+    "status_target": "",
+    "technique": "Blocking",
+    "tier": 3,
+    "types": {
+      "counterattack": true,
+      "full_block": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "blowgu_aimed_shot": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "description": "A carefully aimed shot for better accuracy.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "blowgu_aimed_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Aimed shot",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Blowgun",
+    "tier": 1,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "blowgu_blinding_cloud": {
+    "aType": "attack",
+    "action": 0,
+    "aim": 0,
+    "description": "Using the blowgun to spread a blinding powder.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "blowgu_blinding_cloud",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Blinding cloud",
+    "notes": "Applies Blinded status to targets in a 3*3 cross area, no to-hit roll, Save to avoid",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "blinded",
+    "technique": "Blowgun",
+    "tier": 4,
+    "types": {
+      "blinding": true,
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "blowgu_blowgun": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 3,
+    "description": "A blowgun using darts as missiles.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "blowgu_blowgun",
+    "maxRng": 10,
+    "minRng": 2,
+    "name": "Blowgun (Fukiya)",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Blowgun",
+    "tier": 2,
+    "types": {
+      "Piercing": true,
+      "Ranged": true,
+      "Shooting": true,
+      "Weapon": true
+    }
+  },
+  "blowgu_fast_shot": {
+    "aType": "attack",
+    "action": -1,
+    "aim": -2,
+    "description": "A fast, but less accurate and powerful shot.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "blowgu_fast_shot",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Fast shot",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Blowgun",
+    "tier": 2,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "blowgu_long_shot": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -2,
+    "description": "A highly arced shot for more range.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "blowgu_long_shot",
+    "maxRng": 10,
+    "minRng": 0,
+    "name": "Long Shot",
+    "notes": "Increase Range by 10 squares",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Blowgun",
+    "tier": 4,
+    "types": {
+      "ranged": true,
+      "shooting": true,
+      "weapon": true
+    }
+  },
+  "blowgu_poison_cloud": {
+    "aType": "attack",
+    "action": 0,
+    "aim": 0,
+    "description": "Using the blowgun to spread a poisonous powder.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "blowgu_poison_cloud",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Poison cloud",
+    "notes": "Applies Poisoned 5 status to targets in a 3*3 cross area, no to-hit roll, Save to avoid",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "Poisoned 5",
+    "technique": "Blowgun",
+    "tier": 5,
+    "types": {
+      "poisonous": true,
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "chain_weapon_armed_arm_lock": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 5,
+    "description": "Using your weapon to catch and disable the target's arm.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapon_armed_arm_lock",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed arm lock",
+    "notes": "Apply Held and Arm Disabled status to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "held, arm_disabled",
+    "technique": "Chain Weapons",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "chain_weapon_armed_back_strike": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Striking at an enemy behind you at the same time you attack one in front.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapon_armed_back_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed back strike",
+    "notes": "Make a second attack against an enemy on the opposite side of the character",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain Weapons",
+    "tier": 4,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "chain_weapon_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapon_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "Chain Weapons",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "chain_weapon_armed_trip": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Tripping your target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapon_armed_trip",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed trip",
+    "notes": "Apply Prone status to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Chain Weapons",
+    "tier": 1,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "chain_weapon_spinning_attack": {
+    "aType": "attack",
+    "action": 3,
+    "aim": -4,
+    "description": "Pivoting on your foot to strike at all enemies surrounding you.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapon_spinning_attack",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Spinning attack",
+    "notes": "Attacks everyone in contact with the character",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain Weapons",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "chain_weapons_chain": {
+    "aType": "attack",
+    "action": 3,
+    "aim": -1,
+    "description": "A simple chain used as a weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapons_chain",
+    "maxRng": 3,
+    "minRng": 1,
+    "name": "Chain (Kusari-fundo/Manrikigusari)",
+    "notes": "If target has Defense Status, +2 to-hit",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain weapons (Kusarijutsu)",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "chain_weapons_chain_sickle": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 2,
+    "description": "A sickle with an attached chain.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapons_chain_sickle",
+    "maxRng": 3,
+    "minRng": 1,
+    "name": "Chain Sickle (Kusarigama)",
+    "notes": "If target has Defense Status, +2 to-hit",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain weapons (Kusarijutsu)",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "chain_weapons_chain_sticks": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 1,
+    "description": "Two sticks connected with a short chain or rope.",
+    "dmg": {
+      "add": 0,
+      "d": 7,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapons_chain_sticks",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Chain Sticks (Nunchaku)",
+    "notes": "If target has Defense Status, +2 to-hit",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain weapons (Kusarijutsu)",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "chain_weapons_flail": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 1,
+    "description": "Large grain treshing tool turned into a weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 11,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapons_flail",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Flail (Chigiriki)",
+    "notes": "If target has Defense Status, +2 to-hit",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain weapons (Kusarijutsu)",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "chain_weapons_rope_hook": {
+    "aType": "attack",
+    "action": 2,
+    "aim": -2,
+    "description": "A rope with a grappling hook on end.",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "chain_weapons_rope_hook",
+    "maxRng": 4,
+    "minRng": 1,
+    "name": "Rope Hook (Johyo/Kawanga/Kyoketsu-shoge)",
+    "notes": "If target has Defense Status, +2 to-hit",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Chain weapons (Kusarijutsu)",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "claw_armed_arm_lock": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 5,
+    "description": "Using your weapon to catch and disable the target's arm.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "claw_armed_arm_lock",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed arm lock",
+    "notes": "Apply Held and Arm Disabled status to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "held, arm_disabled",
+    "technique": "claws",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "claw_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "claw_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "claws",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "claw_armed_feint": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Distracting your target in preparation to your next attack.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "claw_armed_feint",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed feint",
+    "notes": "Apply Dazed 2 to the target and Aiming 2 to self",
+    "skill": "Armed",
+    "status_self": "aiming 2",
+    "status_target": "dazed 2",
+    "technique": "Claws",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "claw_claws": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 6,
+    "description": "Long claws attached to hands.",
+    "dmg": {
+      "add": 0,
+      "d": 7,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "claw_claws",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Claws (Tekko-Kagi)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 5,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "claw_finger_claws": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "Thimbles with sharp claws on end.",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "claw_finger_claws",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Finger Claws (Nekode)",
+    "notes": "No parry",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 2,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "claw_hand_claws": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 6,
+    "description": "Ninja climbing claws attached to the palms.",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "claw_hand_claws",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Hand Claws (Shuko)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 4,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "claw_knuckle_duster": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 5,
+    "description": "A spiked metal knuckle duster.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "claw_knuckle_duster",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Knuckle Duster (Tekken)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "claw_parry": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking melee attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "claw_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Parry",
+    "notes": "Get a +3 bonus to AC against melee weapons (Defense 3 status)",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 4,
+    "types": {
+      "melee_defense": true
+    }
+  },
+  "claw_spiked_ring": {
+    "aType": "attack",
+    "action": 1,
+    "aim": 3,
+    "description": "A finger ring with a spike.",
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "claw_spiked_ring",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Spiked Ring (Kakute)",
+    "notes": "No parry",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 1,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "claw_two_weapon_fighting": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -5,
+    "description": "Fighting effectively with a weapon on both hands.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "claw_two_weapon_fighting",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Two-weapon fighting",
+    "notes": "If the attack hits, apply damage for second weapon too",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Claws",
+    "tier": 1,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "clubs_and_mace_blunt_iron_sword": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 1,
+    "description": "Heavy blunt iron swords.",
+    "dmg": {
+      "add": 0,
+      "d": 10,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_blunt_iron_sword",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Blunt Iron Sword (Tekkan)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Clubs and maces",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "clubs_and_mace_heavy_club": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 1,
+    "description": "Heavy wooden clubs reinforced with iron.",
+    "dmg": {
+      "add": 0,
+      "d": 12,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_heavy_club",
+    "maxRng": 3,
+    "minRng": 1,
+    "name": "Heavy Club (Kanabo)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Clubs and maces",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "clubs_and_mace_hooked_iron_baton": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 2,
+    "description": "Blunt hooked knife-like batons.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_hooked_iron_baton",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Hooked Iron Baton (Kabutowari/Hachiwari)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Clubs and maces",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "clubs_and_mace_iron_baton": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 1,
+    "description": "Blunt knife-like batons with a blade catcher or two.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_iron_baton",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Iron Baton (Jitte/Sai)",
+    "notes": "Bonus to disarm +2",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Clubs and maces",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "clubs_and_mace_iron_pipe": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 1,
+    "description": "Iron smoking pipes, lead pipes and similar tubular metal objects.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_iron_pipe",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Iron Pipe (Kiseru)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Clubs and maces",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "clubs_and_mace_parry": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking melee attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Parry",
+    "notes": "Get a +3 bonus to AC against melee weapons (Defense 3 status)",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "Clubs and Maces",
+    "tier": 1,
+    "types": {
+      "melee_defense": true
+    }
+  },
+  "clubs_and_mace_pressure_point": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -4,
+    "description": "Striking the target's nerves with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_pressure_point",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Pressure point",
+    "notes": "Apply Stunned to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "stunned",
+    "technique": "Clubs and Maces",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "clubs_and_mace_two_weapon_fighting": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -5,
+    "description": "Fighting effectively with a weapon on both hands.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "clubs_and_mace_two_weapon_fighting",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Two-weapon fighting",
+    "notes": "If the attack hits, apply damage for second weapon too",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Clubs and Maces",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "evadin_displacement": {
+    "aType": "move",
+    "action": 4,
+    "aim": 0,
+    "description": "A defense against all melee attacks that allows moving a step.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "evadin_displacement",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Displacement",
+    "notes": "Defends against all melee attacks and moves by 1 square",
+    "skill": "unarmed",
+    "status_self": "defense 4 (melee)",
+    "status_target": "",
+    "technique": "Evading",
+    "tier": 4,
+    "types": {
+      "melee": true,
+      "step": true,
+      "unarmed": true
+    }
+  },
+  "evadin_dodge": {
+    "aType": "vocal",
+    "action": 2,
+    "aim": 0,
+    "description": "A defense against all melee attacks.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "evadin_dodge",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Dodge",
+    "notes": "Defends against all melee attacks",
+    "skill": "unarmed",
+    "status_self": "defense 2 (melee)",
+    "status_target": "",
+    "technique": "Evading",
+    "tier": 1,
+    "types": {
+      "melee": true,
+      "melee_defense": true,
+      "unarmed": true
+    }
+  },
+  "evadin_dodge_missiles": {
+    "aType": "vocal",
+    "action": 4,
+    "aim": 0,
+    "description": "A defense against ranged attacks.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "evadin_dodge_missiles",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Dodge missiles",
+    "notes": "Defends against missile attacks",
+    "skill": "unarmed",
+    "status_self": "defense 4 (ranged)",
+    "status_target": "",
+    "technique": "Evading",
+    "tier": 5,
+    "types": {
+      "melee": true,
+      "missile_defense": true,
+      "unarmed": true
+    }
+  },
+  "evadin_evasion": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "A defense against all melee attacks.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "evadin_evasion",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Evasion",
+    "notes": "Defends against all melee attacks",
+    "skill": "unarmed",
+    "status_self": "defense 4 (melee)",
+    "status_target": "",
+    "technique": "Evading",
+    "tier": 3,
+    "types": {
+      "melee": true,
+      "melee_defense": true,
+      "unarmed": true
+    }
+  },
+  "evadin_grappling_release": {
+    "aType": "vocal",
+    "action": 2,
+    "aim": 0,
+    "description": "A move to escape from \"Held\" status.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "evadin_grappling_release",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Grappling release",
+    "notes": "Ends a grapple",
+    "skill": "unarmed",
+    "status_self": "end held",
+    "status_target": "",
+    "technique": "Evading",
+    "tier": 2,
+    "types": {
+      "melee": true,
+      "release": true,
+      "unarmed": true
+    }
+  },
+  "kickin_back_kick": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 2,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "kickin_back_kick",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Back kick",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Kicking",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "kickin_jump_kick": {
+    "aType": "attack",
+    "action": 4,
+    "aim": -6,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "kickin_jump_kick",
+    "maxRng": 3,
+    "minRng": 2,
+    "name": "Jump kick",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Kicking",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "kickin_kick": {
+    "aType": "attack",
+    "action": 2,
+    "aim": -2,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "kickin_kick",
+    "maxRng": 2,
+    "minRng": 0,
+    "name": "Kick ",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Kicking",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "kickin_knee_strike": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 2,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "kickin_knee_strike",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Knee strike",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Kicking",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "kickin_spin_kick": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "kickin_spin_kick",
+    "maxRng": 2,
+    "minRng": 0,
+    "name": "Spin kick",
+    "notes": "Hits everyone within reach 1 square of the attacker",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Kicking",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "knive_armed_arm_lock": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 5,
+    "description": "Using your weapon to catch and disable the target's arm.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "knive_armed_arm_lock",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed arm lock",
+    "notes": "Apply Held and Arm Disabled status to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "held, arm_disabled",
+    "technique": "Knives",
+    "tier": 4,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "knive_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "knive_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "Knives",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "knive_armed_feint": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Distracting your target in preparation to your next attack.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "knive_armed_feint",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed feint",
+    "notes": "Apply Dazed 2 to the target and Aiming 2 to self",
+    "skill": "Armed",
+    "status_self": "aiming 2",
+    "status_target": "dazed 2",
+    "technique": "Knives",
+    "tier": 1,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "knive_armor_piercing_knife": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 5,
+    "description": "A narrow fighting knife made for piercing armor.",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "knive_armor_piercing_knife",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Armor Piercing Knife (Yoroi-doshi)",
+    "notes": "Armor piercing +4",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 5,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "knive_dagger": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 2,
+    "description": "A large fighting knife.",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "knive_dagger",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Dagger (Kaiken)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 3,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "knive_knife": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 2,
+    "description": "A small knife.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "knive_knife",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Knife (Kozuka/Kogatana)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 2,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "knive_precise_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": 5,
+    "description": "A careful strike with your weapon.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "knive_precise_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Precise strike",
+    "notes": "",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "knive_sword_knife": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 5,
+    "description": "A large fighting knife made in the katana pattern.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "knive_sword_knife",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Sword Knife (Tanto)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 4,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "knive_trovel": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 2,
+    "description": "A small shovel like utility tool for ninjas.",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "knive_trovel",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Trovel (Kunai)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 1,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "knive_two_weapon_fighting": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -5,
+    "description": "Fighting effectively with a weapon on both hands.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "knive_two_weapon_fighting",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Two-weapon fighting",
+    "notes": "If the attack hits, apply damage for second weapon too",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Knives",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "polearm_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "polearm_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "Polearms",
+    "tier": 4,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "polearm_armed_trip": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Tripping your target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "polearm_armed_trip",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed trip",
+    "notes": "Apply Prone status to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Polearms",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "polearm_lunge": {
+    "aType": "attack",
+    "action": 1,
+    "aim": 0,
+    "description": "Stepping closer to your enemy to reach them with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "polearm_lunge",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Lunge",
+    "notes": "",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms",
+    "tier": 1,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "polearm_parry": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking melee attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "polearm_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Parry",
+    "notes": "Get a +3 bonus to AC against melee weapons (Defense 3 status)",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "Polearms",
+    "tier": 2,
+    "types": {
+      "melee_defense": true
+    }
+  },
+  "polearm_power_blow": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -6,
+    "description": "Striking hard with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "polearm_power_blow",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Power blow",
+    "notes": "",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "polearms_glaive": {
+    "aType": "attack",
+    "action": 6,
+    "aim": -2,
+    "description": "A polearm with a long sword-like blade.",
+    "dmg": {
+      "add": 0,
+      "d": 12,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "polearms_glaive",
+    "maxRng": 4,
+    "minRng": 1,
+    "name": "Glaive (Naginata/Bisento)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms (Naginatajutsu)",
+    "tier": 4,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "polearms_halberd": {
+    "aType": "attack",
+    "action": 5,
+    "aim": -2,
+    "description": "A polearm with a longer blade and hook.",
+    "dmg": {
+      "add": 0,
+      "d": 10,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "polearms_halberd",
+    "maxRng": 4,
+    "minRng": 1,
+    "name": "Halberd (Kama-Yari)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms (Naginatajutsu)",
+    "tier": 3,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "polearms_mancatcher": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 4,
+    "description": "A polearm with a spiked tool on end to catch the target with little harm.",
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "polearms_mancatcher",
+    "maxRng": 4,
+    "minRng": 1,
+    "name": "Mancatcher (Sasumata/Sodegarami/Torimono sandogu/Tsukubo)",
+    "notes": "Grapples on a hit",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms (Naginatajutsu)",
+    "tier": 5,
+    "types": {
+      "abrasion": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "polearms_short_spear": {
+    "aType": "attack",
+    "action": 3,
+    "aim": -1,
+    "description": "A short one-handed spear.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "polearms_short_spear",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Short Spear (Rochin)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms (Naginatajutsu)",
+    "tier": 1,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "polearms_spear": {
+    "aType": "attack",
+    "action": 4,
+    "aim": -2,
+    "description": "A long two-handed spear.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "polearms_spear",
+    "maxRng": 4,
+    "minRng": 1,
+    "name": "Spear (Yari)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Polearms (Naginatajutsu)",
+    "tier": 2,
+    "types": {
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "punchin_elbow_strike": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "punchin_elbow_strike",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Elbow strike",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Punching",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "punchin_finger_punch": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 4,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 7,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "punchin_finger_punch",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Finger punch",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Punching",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "punchin_knuckle_punch": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "punchin_knuckle_punch",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Knuckle punch",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Punching",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "punchin_punch": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": " A basic unarmed hand attack using the fist.",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "punchin_punch",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Punch ",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Punching",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "punchin_sword_hand": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "punchin_sword_hand",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Sword hand",
+    "notes": "",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Punching",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "restrainin_grapple": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 6,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "restrainin_grapple",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Grapple",
+    "notes": "Apply Held status to target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "held",
+    "technique": "Restraining",
+    "tier": 1,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "restrainin_pin": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 8,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "restrainin_pin",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Pin",
+    "notes": "Apply Pinned status to target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "pinned",
+    "technique": "Restraining",
+    "tier": 4,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "restrainin_strangle": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 0,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "restrainin_strangle",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Strangle",
+    "notes": "Apply Held status to target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "held",
+    "technique": "Restraining",
+    "tier": 5,
+    "types": {
+      "asphyxiation": true,
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "restrainin_unarmed_arm_lock": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 8,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "restrainin_unarmed_arm_lock",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Unarmed arm lock",
+    "notes": "Apply Held and Arm Disabled status to target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "held, arm_disabled",
+    "technique": "Restraining",
+    "tier": 3,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "restrainin_wrestle": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 8,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "restrainin_wrestle",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Wrestle",
+    "notes": "Apply Held and Unarmed status to target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "held, unarmed",
+    "technique": "Restraining",
+    "tier": 2,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "stave_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "stave_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "Staves",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "stave_armed_trip": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Tripping your target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "stave_armed_trip",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed trip",
+    "notes": "Apply Prone status to target",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Staves",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "stave_parry": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking melee attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "stave_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Parry",
+    "notes": "Get a +3 bonus to AC against melee weapons (Defense 3 status)",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "Staves",
+    "tier": 1,
+    "types": {
+      "melee_defense": true
+    }
+  },
+  "stave_power_blow": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -6,
+    "description": "Striking hard with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "stave_power_blow",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Power blow",
+    "notes": "",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves",
+    "tier": 4,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "stave_spinning_attack": {
+    "aType": "attack",
+    "action": 3,
+    "aim": -4,
+    "description": "Pivoting on your foot to strike at all enemies surrounding you.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "stave_spinning_attack",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Spinning attack",
+    "notes": "Attacks everyone in contact with the character",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "staves_half_staff": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 2,
+    "description": "A staff about 1 meter (1 yard) long.",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "staves_half_staff",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Half Staff (Hanbo)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves (Bojutsu)",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "staves_long_staff": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 0,
+    "description": "A staff almost 2 meters (2 yards) long.",
+    "dmg": {
+      "add": 0,
+      "d": 10,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "staves_long_staff",
+    "maxRng": 4,
+    "minRng": 1,
+    "name": "Long Staff (Bo)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves (Bojutsu)",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "staves_medium_staff": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 2,
+    "description": "A staff about 1.2 meter (4') long.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "staves_medium_staff",
+    "maxRng": 3,
+    "minRng": 1,
+    "name": "Medium Staff (Jo)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves (Bojutsu)",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "staves_short_staff": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 1,
+    "description": "A staff ½ meter (½ yard) long.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "staves_short_staff",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Short Staff (Tanbo)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves (Bojutsu)",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "staves_wooden_sword": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 2,
+    "description": "A wooden practice sword.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "staves_wooden_sword",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Wooden Sword (Bokken)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Staves (Bojutsu)",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "sword_armed_feint": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Distracting your target in preparation to your next attack.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "sword_armed_feint",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed feint",
+    "notes": "Apply Dazed 2 to the target and Aiming 2 to self",
+    "skill": "Armed",
+    "status_self": "aiming 2",
+    "status_target": "dazed 2",
+    "technique": "Swords",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "sword_armed_riposte": {
+    "aType": "attack",
+    "action": 1,
+    "aim": 0,
+    "description": "Defending with your weapon against melee attacks and striking back if your enemy misses.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "sword_armed_riposte",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed riposte",
+    "notes": "Applies Defend and allows for a counter-attack if the attack misses",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "Swords",
+    "tier": 4,
+    "types": {
+      "counterattack": true
+    }
+  },
+  "sword_fast_draw": {
+    "aType": "vocal",
+    "action": 0,
+    "aim": 0,
+    "description": "Drawing your weapon with no time lost.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "sword_fast_draw",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Fast draw (Iaido)",
+    "notes": "Change to this weapon",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords",
+    "tier": 1,
+    "types": {
+      "prepare": true
+    }
+  },
+  "sword_parry": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking melee attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "sword_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Parry",
+    "notes": "Get a +3 bonus to AC against melee weapons (Defense 3 status)",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "Swords",
+    "tier": 3,
+    "types": {
+      "melee_defense": true
+    }
+  },
+  "sword_two_weapon_fighting": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -5,
+    "description": "Fighting effectively with a weapon on both hands.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "sword_two_weapon_fighting",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Two-weapon fighting",
+    "notes": "If the attack hits, apply damage for second weapon too",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "swords_greatsword": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 0,
+    "description": "A long two-handed sword.",
+    "dmg": {
+      "add": 0,
+      "d": 12,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "swords_greatsword",
+    "maxRng": 3,
+    "minRng": 1,
+    "name": "Greatsword (Odachi)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords (Kenjutsu)",
+    "tier": 5,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "swords_long_sword": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 0,
+    "description": "A long one-handed sword.",
+    "dmg": {
+      "add": 0,
+      "d": 10,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "swords_long_sword",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Long Sword (Katana)",
+    "notes": "If 2-H status, Reach 3",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords (Kenjutsu)",
+    "tier": 4,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "swords_ninja_sword": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "A short straight sword.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "swords_ninja_sword",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Ninja Sword (Ninjato)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords (Kenjutsu)",
+    "tier": 2,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "swords_short_sword": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 0,
+    "description": "A short curved sword.",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "swords_short_sword",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Short Sword (Wakizashi)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords (Kenjutsu)",
+    "tier": 3,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "swords_sword_knife": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "A large fighting knife made in the katana pattern.",
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "swords_sword_knife",
+    "maxRng": 2,
+    "minRng": 1,
+    "name": "Sword Knife (Tanto)",
+    "notes": "If 2-H status, Reach 3",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Swords (Kenjutsu)",
+    "tier": 1,
+    "types": {
+      "cutting": true,
+      "melee": true,
+      "piercing": true,
+      "weapon": true
+    }
+  },
+  "throwin_aimed_throw": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "A careful throw for better accuracy.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_aimed_throw",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Aimed throw",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 2,
+    "types": {
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "throwin_body_throw": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 6,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_body_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Body throw",
+    "notes": "Apply Prone status to target and move target by 1 square (requires Held status)",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Throwing",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "throwin_curving_throw": {
+    "aType": "attack",
+    "action": 0,
+    "aim": 0,
+    "description": "Throwing over or around the target's cover.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_curving_throw",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Curving throw",
+    "notes": "Ignores Cover from Obstacles",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 3,
+    "types": {
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "throwin_double_throw": {
+    "aType": "attack",
+    "action": 0,
+    "aim": -4,
+    "description": "Throwing two missiles at the same time.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_double_throw",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Double throw",
+    "notes": "Double damage",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 4,
+    "types": {
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "throwin_fast_throw": {
+    "aType": "attack",
+    "action": -1,
+    "aim": -4,
+    "description": "Throwing fast, but with less accuracy and power.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_fast_throw",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Fast throw",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 1,
+    "types": {
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "throwin_joint_lock_throw": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 6,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_joint_lock_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Joint-lock throw",
+    "notes": "Apply Prone and Arm Disabled status to target (requires Held status)",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "prone, arm_disabled",
+    "technique": "Throwing",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "throwin_long_throw": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -2,
+    "description": "A highly arced throw for more range.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_long_throw",
+    "maxRng": 5,
+    "minRng": 0,
+    "name": "Long Throw",
+    "notes": "Increase Range by 5 squares",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 2,
+    "types": {
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "throwin_neck_throw": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 2,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_neck_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Neck throw",
+    "notes": "Apply Prone status to target (requires grappling)",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Throwing",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "throwin_rocks": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "For lack of better training, throwing rocks as missiles.",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_rocks",
+    "maxRng": 5,
+    "minRng": 2,
+    "name": "Rocks",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 0,
+    "types": {
+      "Crushing": true,
+      "Ranged": true,
+      "Throwing": true,
+      "Weapon": true
+    }
+  },
+  "throwin_throw": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 6,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Throw",
+    "notes": "Apply Prone status to target (requires Held status)",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Throwing",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "throwin_throw_anything": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "The ability to use any weapon or item as a missile.",
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_throw_anything",
+    "maxRng": 10,
+    "minRng": 2,
+    "name": "Throw anything",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 5,
+    "types": {
+      "Crushing": true,
+      "Ranged": true,
+      "Throwing": true,
+      "Weapon": true
+    }
+  },
+  "throwin_thrown_blades": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 1,
+    "description": "Any small concealable throwing blade, whether star o needle shaped.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_thrown_blades",
+    "maxRng": 5,
+    "minRng": 2,
+    "name": "Thrown Blades (Shuriken)",
+    "notes": "Can use poison",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 1,
+    "types": {
+      "Cutting": true,
+      "Piercing": true,
+      "Ranged": true,
+      "Throwing": true,
+      "Weapon": true
+    }
+  },
+  "throwin_unbalancing_throw": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "description": "An An unarmed hand attack with the edge of the hand aka. \"karate chop\".",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_unbalancing_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Unbalancing throw",
+    "notes": "Apply Prone and Slowed 2 status to target  (requires Held status)",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "prone, slowed 2",
+    "technique": "Throwing",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "throwin_vital_throw": {
+    "aType": "attack",
+    "action": 1,
+    "aim": -2,
+    "description": "A throw aimed at a vital point on the target.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "throwin_vital_throw",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Vital throw",
+    "notes": "",
+    "skill": "ranged",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Throwing",
+    "tier": 5,
+    "types": {
+      "ranged": true,
+      "throwing": true,
+      "weapon": true
+    }
+  },
+  "topplin_ear_clap": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 2,
+    "description": "An unarmed attack with open palms to stun and deafen the target.",
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "topplin_ear_clap",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Ear clap",
+    "notes": "Stuns and deafens target",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "stunned, deafened",
+    "technique": "Toppling",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "topplin_head_butt": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "An unarmed attack that can be used while in \"Pinned\" status.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "topplin_head_butt",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Head butt",
+    "notes": "Can be used while pinned",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Toppling",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "topplin_push": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "An unarmed attack to push the target away.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/img/missing.png",
+    "id": "topplin_push",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Push",
+    "notes": "Moves target back by 1 square",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Toppling",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "topplin_unarmed_feint": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "A move to distract the target in preparation to another attack.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "topplin_unarmed_feint",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Unarmed feint",
+    "notes": "-4 to enemy's defense against next strike",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "defense -4",
+    "technique": "Toppling",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "topplin_unarmed_trip": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 4,
+    "description": "An unarmed attack to make the target prone.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "topplin_unarmed_trip",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Unarmed trip",
+    "notes": "Makes the target prone",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "prone",
+    "technique": "Toppling",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "melee": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "untraine_scuffle": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "description": "The inelegant way of fighting for the untrained. ",
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "untraine_scuffle",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Scuffle",
+    "notes": "notes",
+    "skill": "unarmed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "Untrained",
+    "tier": 0,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "unarmed": true,
+      "untrained": true
+    }
+  },
+  "war_fan_armed_disarm": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "description": "Disarming the target with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_armed_disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed disarm",
+    "notes": "Disarms opponent",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "disarmed",
+    "technique": "War Fans",
+    "tier": 5,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "war_fan_armed_feint": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "Distracting your target in preparation to your next attack.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_armed_feint",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Armed feint",
+    "notes": "Apply Dazed 2 to the target and Aiming 2 to self",
+    "skill": "Armed",
+    "status_self": "aiming 2",
+    "status_target": "dazed 2",
+    "technique": "War Fans",
+    "tier": 2,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "war_fan_block_missiles": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking ranged attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_block_missiles",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Block missiles",
+    "notes": "Defends against all missile attacks",
+    "skill": "Armed",
+    "status_self": "defense 3 (ranged)",
+    "status_target": "",
+    "technique": "War Fans",
+    "tier": 3,
+    "types": {
+      "armed": true,
+      "missile_defense": true
+    }
+  },
+  "war_fan_iron_fan": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "A foldable metal fan.",
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_iron_fan",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "Iron Fan (Tessen)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "War fans",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  },
+  "war_fan_parry": {
+    "aType": "vocal",
+    "action": 3,
+    "aim": 0,
+    "description": "Blocking melee attacks with your weapon.",
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Parry",
+    "notes": "Get a +3 bonus to AC against melee weapons (Defense 3 status)",
+    "skill": "Armed",
+    "status_self": "defense 3 (melee)",
+    "status_target": "",
+    "technique": "War Fans",
+    "tier": 1,
+    "types": {
+      "melee_defense": true
+    }
+  },
+  "war_fan_precise_strike": {
+    "aType": "attack",
+    "action": 1,
+    "aim": 5,
+    "description": "A careful strike with your weapon.",
+    "dmg": {
+      "add": 1,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_precise_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Precise strike",
+    "notes": "",
+    "skill": "Armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "War Fans",
+    "tier": 4,
+    "types": {
+      "armed": true,
+      "melee": true
+    }
+  },
+  "war_fan_war_fan": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 0,
+    "description": "A fixed metal fan.",
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/img/missing.png",
+    "id": "war_fan_war_fan",
+    "maxRng": 1,
+    "minRng": 1,
+    "name": "War Fan (Gunbai)",
+    "notes": "",
+    "skill": "armed",
+    "status_self": "",
+    "status_target": "",
+    "technique": "War fans",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "weapon": true
+    }
+  }
+}

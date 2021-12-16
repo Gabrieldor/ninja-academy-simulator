@@ -1,0 +1,1044 @@
+{
+  "aggressive_parry": {
+    "aType": "defense",
+    "action": 4,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Aggressiveparry.jpg",
+    "id": "aggressive_parry",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Aggressive parry",
+    "notes": "defends against unarmed strikes and automatically damages attacker if the attack misses",
+    "skill": "unarmed",
+    "technique": "blocking",
+    "tier": 4,
+    "types": {
+      "blocking": true,
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "arm_lock": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 8,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Armlock.jpg",
+    "id": "arm_lock",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Arm lock",
+    "notes": "apply held and arm disabled status to target",
+    "skill": "unarmed",
+    "technique": "restraining",
+    "tier": 3,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "arm_strike": {
+    "aType": "aimed attack",
+    "action": 1,
+    "aim": -4,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Armstrike.jpg",
+    "id": "arm_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Arm strike",
+    "notes": "applies arm disabled to the target",
+    "skill": "unarmed",
+    "technique": "aiming",
+    "tier": 3,
+    "types": {
+      "aiming": true
+    }
+  },
+  "back_kick": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 2,
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Backkick.jpg",
+    "id": "back_kick",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Back kick",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "kicking",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "body_strike": {
+    "aType": "aimed attack",
+    "action": 1,
+    "aim": -2,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Bodystrike.jpg",
+    "id": "body_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Body strike",
+    "notes": "applies dazed 2 to the target",
+    "skill": "unarmed",
+    "technique": "aiming",
+    "tier": 1,
+    "types": {
+      "aiming": true
+    }
+  },
+  "body_throw": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 6,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Bodythrow.jpg",
+    "id": "body_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Body throw",
+    "notes": "apply prone status to target and move target by 1 square (requires held status)",
+    "skill": "unarmed",
+    "technique": "throwing",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "disarm": {
+    "aType": "defense",
+    "action": 4,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Disarm.jpg",
+    "id": "disarm",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Disarm",
+    "notes": "disarms opponent",
+    "skill": "unarmed",
+    "technique": "blocking",
+    "tier": 5,
+    "types": {
+      "blocking": true
+    }
+  },
+  "displacement": {
+    "aType": "defense",
+    "action": 4,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Displacement.jpg",
+    "id": "displacement",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Displacement",
+    "notes": "defends against all melee attacks and moves by 1 square",
+    "skill": "unarmed",
+    "technique": "evading",
+    "tier": 4,
+    "types": {
+      "evading": true
+    }
+  },
+  "dodge": {
+    "aType": "defense",
+    "action": 2,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Dodge.jpg",
+    "id": "dodge",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Dodge",
+    "notes": "defends against all melee attacks",
+    "skill": "unarmed",
+    "technique": "evading",
+    "tier": 1,
+    "types": {
+      "evading": true
+    }
+  },
+  "dodge_missiles": {
+    "aType": "defense",
+    "action": 4,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Dodgemissiles.jpg",
+    "id": "dodge_missiles",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Dodge missiles",
+    "notes": "defends against missile attacks",
+    "skill": "unarmed",
+    "technique": "evading",
+    "tier": 5,
+    "types": {
+      "evading": true
+    }
+  },
+  "ear_clap": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 2,
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Earclap.jpg",
+    "id": "ear_clap",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Ear clap",
+    "notes": "stuns and deafens target",
+    "skill": "unarmed",
+    "technique": "toppling",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "elbow_strike": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 5,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Elbowstrike.jpg",
+    "id": "elbow_strike",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Elbow strike",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "punching",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "evasion": {
+    "aType": "defense",
+    "action": 3,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Evasion.jpg",
+    "id": "evasion",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Evasion",
+    "notes": "defends against all melee attacks",
+    "skill": "unarmed",
+    "technique": "evading",
+    "tier": 3,
+    "types": {
+      "evading": true
+    }
+  },
+  "feint": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Feint.jpg",
+    "id": "feint",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Feint",
+    "notes": "-4 to enemy's defense against next strike",
+    "skill": "unarmed",
+    "technique": "toppling",
+    "tier": 3,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "finger_punch": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 7,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Fingerpunch.jpg",
+    "id": "finger_punch",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Finger punch",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "punching",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "grapple": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 6,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Grapple.jpg",
+    "id": "grapple",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Grapple",
+    "notes": "apply held status to target",
+    "skill": "unarmed",
+    "technique": "restraining",
+    "tier": 1,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "grappling_release": {
+    "aType": "defense",
+    "action": 2,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Grapplingrelease.jpg",
+    "id": "grappling_release",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Grappling release",
+    "notes": "ends a grapple",
+    "skill": "unarmed",
+    "technique": "evading",
+    "tier": 2,
+    "types": {
+      "evading": true
+    }
+  },
+  "head_butt": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Headbutt.jpg",
+    "id": "head_butt",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Head butt",
+    "notes": "can be used while pinned",
+    "skill": "unarmed",
+    "technique": "toppling",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "joint-lock_throw": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 6,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Joint-lockthrow.jpg",
+    "id": "joint-lock_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Joint-lock throw",
+    "notes": "apply prone and arm disabled status to target (requires held status)",
+    "skill": "unarmed",
+    "technique": "throwing",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "jump_kick": {
+    "aType": "attack",
+    "action": 4,
+    "aim": -6,
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Jumpkick.jpg",
+    "id": "jump_kick",
+    "maxRng": 3,
+    "minRng": 2,
+    "name": "Jump kick",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "kicking",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "kick": {
+    "aType": "attack",
+    "action": 2,
+    "aim": -2,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Kick.jpg",
+    "id": "kick",
+    "maxRng": 2,
+    "minRng": 0,
+    "name": "Kick",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "kicking",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "kick_block": {
+    "aType": "defense",
+    "action": 2,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Kickblock.jpg",
+    "id": "kick_block",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Kick block",
+    "notes": "defends against unarmed lower limb strikes (kicking, tails etc.)",
+    "skill": "unarmed",
+    "technique": "blocking",
+    "tier": 2,
+    "types": {
+      "blocking": true
+    }
+  },
+  "knee_strike": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 2,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Kneestrike.jpg",
+    "id": "knee_strike",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Knee strike",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "kicking",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "knuckle_punch": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Knucklepunch.jpg",
+    "id": "knuckle_punch",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Knuckle punch",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "punching",
+    "tier": 4,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "leg_strike": {
+    "aType": "aimed attack",
+    "action": 1,
+    "aim": -3,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Legstrike.jpg",
+    "id": "leg_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Leg strike",
+    "notes": "applies slowed 3 to the target",
+    "skill": "unarmed",
+    "technique": "aiming",
+    "tier": 2,
+    "types": {
+      "aiming": true
+    }
+  },
+  "neck_throw": {
+    "aType": "attack",
+    "action": 6,
+    "aim": 2,
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Neckthrow.jpg",
+    "id": "neck_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Neck throw",
+    "notes": "apply prone status to target (requires grappling)",
+    "skill": "unarmed",
+    "technique": "throwing",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "pin": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 8,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Pin.jpg",
+    "id": "pin",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Pin",
+    "notes": "apply pinned status to target",
+    "skill": "unarmed",
+    "technique": "restraining",
+    "tier": 4,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "punch": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Punch.jpg",
+    "id": "punch",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Punch",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "punching",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "punch_block": {
+    "aType": "defense",
+    "action": 1,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Punchblock.jpg",
+    "id": "punch_block",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Punch block",
+    "notes": "defends against unarmed strikes (punching, claws etc.)",
+    "skill": "unarmed",
+    "technique": "blocking",
+    "tier": 1,
+    "types": {
+      "blocking": true
+    }
+  },
+  "push": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Push.jpg",
+    "id": "push",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Push",
+    "notes": "moves target back by 1 square",
+    "skill": "unarmed",
+    "technique": "toppling",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "riposte": {
+    "aType": "defense",
+    "action": 3,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Riposte.jpg",
+    "id": "riposte",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Riposte",
+    "notes": "defends against unarmed strikes and allows for a counter-attack if the attack misses",
+    "skill": "unarmed",
+    "technique": "blocking",
+    "tier": 3,
+    "types": {
+      "blocking": true
+    }
+  },
+  "scuffle": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Scuffle.jpg",
+    "id": "scuffle",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Scuffle",
+    "notes": "notes",
+    "skill": "unarmed",
+    "technique": "untrained",
+    "tier": 0,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "strike": true,
+      "unarmed": true,
+      "untrained": true
+    }
+  },
+  "spin_kick": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 6,
+      "num": 1
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Spinkick.jpg",
+    "id": "spin_kick",
+    "maxRng": 2,
+    "minRng": 0,
+    "name": "Spin kick",
+    "notes": "hits everyone within reach 1 square of the attacker",
+    "skill": "unarmed",
+    "technique": "kicking",
+    "tier": 5,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "kicking": true,
+      "melee": true,
+      "unarmed": true
+    }
+  },
+  "strangle": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 0,
+    "dmg": {
+      "add": 0,
+      "d": 8,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Strangle.jpg",
+    "id": "strangle",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Strangle",
+    "notes": "apply held status to target",
+    "skill": "unarmed",
+    "technique": "restraining",
+    "tier": 5,
+    "types": {
+      "asphyxiation": true,
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  },
+  "stunning_strike": {
+    "aType": "aimed attack",
+    "action": 1,
+    "aim": -5,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Stunningstrike.jpg",
+    "id": "stunning_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Stunning strike",
+    "notes": "applies stunned to the target",
+    "skill": "unarmed",
+    "technique": "aiming",
+    "tier": 4,
+    "types": {
+      "aiming": true
+    }
+  },
+  "sword_hand": {
+    "aType": "attack",
+    "action": 2,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 4,
+      "num": 1
+    },
+    "hands": 1,
+    "icon": "resources/adventures/Abilities/icon/Swordhand.jpg",
+    "id": "sword_hand",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Sword hand",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "punching",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "punching": true,
+      "strike": true,
+      "unarmed": true
+    }
+  },
+  "throw": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 6,
+    "dmg": {
+      "add": 0,
+      "d": 2,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Throw.jpg",
+    "id": "throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Throw",
+    "notes": "apply prone status to target (requires held status)",
+    "skill": "unarmed",
+    "technique": "throwing",
+    "tier": 1,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "trip": {
+    "aType": "attack",
+    "action": 5,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Trip.jpg",
+    "id": "trip",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Trip",
+    "notes": "makes the target prone",
+    "skill": "unarmed",
+    "technique": "toppling",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "kick": true,
+      "melee": true,
+      "topple": true,
+      "unarmed": true
+    }
+  },
+  "unbalancing_throw": {
+    "aType": "attack",
+    "action": 3,
+    "aim": 4,
+    "dmg": {
+      "add": 0,
+      "d": 3,
+      "num": 1
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Unbalancingthrow.jpg",
+    "id": "unbalancing_throw",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Unbalancing throw",
+    "notes": "apply prone and slowed 2 status to target (requires held status)",
+    "skill": "unarmed",
+    "technique": "throwing",
+    "tier": 2,
+    "types": {
+      "crushing": true,
+      "melee": true,
+      "throw": true,
+      "throwing": true,
+      "unarmed": true
+    }
+  },
+  "vital_strike": {
+    "aType": "aimed attack",
+    "action": 1,
+    "aim": -6,
+    "dmg": {
+      "add": 6,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 0,
+    "icon": "resources/adventures/Abilities/icon/Vitalstrike.jpg",
+    "id": "vital_strike",
+    "maxRng": 0,
+    "minRng": 0,
+    "name": "Vital strike",
+    "notes": "",
+    "skill": "unarmed",
+    "technique": "aiming",
+    "tier": 5,
+    "types": {
+      "aiming": true
+    }
+  },
+  "wrestle": {
+    "aType": "attack",
+    "action": 4,
+    "aim": 8,
+    "dmg": {
+      "add": 0,
+      "d": 0,
+      "num": 0
+    },
+    "hands": 2,
+    "icon": "resources/adventures/Abilities/icon/Wrestle.jpg",
+    "id": "wrestle",
+    "maxRng": 1,
+    "minRng": 0,
+    "name": "Wrestle",
+    "notes": "apply held and unarmed status to target",
+    "skill": "unarmed",
+    "technique": "restraining",
+    "tier": 2,
+    "types": {
+      "melee": true,
+      "restraining": true,
+      "unarmed": true
+    }
+  }
+}
